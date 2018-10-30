@@ -1,6 +1,6 @@
 node {
    stage('clone Repo') { 
-      bat 'git clone https://github.com/SrujanRajDev/Visible.git
+      bat 'git clone https://github.com/SrujanRajDev/devops.git'
    }
    stage('Build') {
       bat 'mvn compile'
